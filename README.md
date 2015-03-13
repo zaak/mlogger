@@ -3,7 +3,7 @@ Simple mouse logger for Linux
 
 **Compile**
 
-Alter following line to read your mouse input:
+Alter following line in `mlogger.c`:
 ```c
 #define MOUSEFILE "/dev/input/event2"
 ```
