@@ -7,7 +7,7 @@ Alter following line in `mlogger.c`:
 ```c
 #define MOUSEFILE "/dev/input/event2"
 ```
-You can check the correct mouse device this with `lsinput` tool.
+You can check the correct mouse device with `lsinput` tool.
 
 Then:
 ```
